@@ -5,50 +5,57 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Cash Reguster</title>
-      <link rel="/style.css" type="stylesheet">
+      <link rel="stylesheet" href="style.css" />
 </head>
 <body>
       <header>
-            <h2>Cash Register</h2>
+            <h2 class="heading">Cash Register</h2>
       </header>
-      <main>
-            <label for="bill-amount">
-                  <p>Bill Amount</p>
-            </label>
-            <input type="text" placeholder="Enter bill amount" id="bill-amount">
-            <label for="cash-given">
-                  <p>Cash Given</p>
-            </label>
-            <input type="text" placeholder="Enter cash given" id="cash-paid">
-            <button id="cash-return">Cash to be returned</button>
-            <p id="error"></p>
-            <table>
-                  <caption>Return Notes</caption>
-                  <tr>
-                        <th>No. of Notes</th>
-                        <td class="no-of-notes"></td>
-                        <td class="no-of-notes"></td>
-                        <td class="no-of-notes"></td>
-                        <td class="no-of-notes"></td>
-                        <td class="no-of-notes"></td>
-                        <td class="no-of-notes"></td>
-                        <td class="no-of-notes"></td>
-                        <td class="no-of-notes"></td>
-                        <td class="no-of-notes"></td>
-                  </tr>
-                  <tr>
-                        <th>Notes</th>
-                        <td>2000</td>
-                        <td>500</td>
-                        <td>200</td>
-                        <td>100</td>
-                        <td>50</td>
-                        <td>20</td>
-                        <td>10</td>
-                        <td>5</td>
-                        <td>1</td>
-                  </tr>
-            </table>
+      <main class="container">
+            <div>
+                  <p class="description">
+                        Enter the bill amount and cash given by the customer and know minimum
+                        number of notes to return.
+                  </p>
+                  <label class="input-label" for="bill-amount">
+                        <p>Bill Amount</p>
+                  </label>
+                  <input type="text" class="input" placeholder="Enter bill amount" id="bill-amount">
+                  <label for="cash-given" class="input-label">
+                        <p>Cash Given</p>
+                  </label>
+                  <input type="text" class="input" placeholder="Enter cash given" id="cash-paid">
+                  <button id="cash-return">Cash to be returned</button>
+                  <p id="error"></p>
+                  <img src="/images/laver-dishes.gif" id="gif">
+                  <table class="change-table">
+                        <caption>Return Notes</caption>
+                        <tr>
+                              <th>No. of Notes</th>
+                              <td class="no-of-notes"></td>
+                              <td class="no-of-notes"></td>
+                              <td class="no-of-notes"></td>
+                              <td class="no-of-notes"></td>
+                              <td class="no-of-notes"></td>
+                              <td class="no-of-notes"></td>
+                              <td class="no-of-notes"></td>
+                              <td class="no-of-notes"></td>
+                              <td class="no-of-notes"></td>
+                        </tr>
+                        <tr>
+                              <th>Notes</th>
+                              <td>2000</td>
+                              <td>500</td>
+                              <td>200</td>
+                              <td>100</td>
+                              <td>50</td>
+                              <td>20</td>
+                              <td>10</td>
+                              <td>5</td>
+                              <td>1</td>
+                        </tr>
+                  </table>
+            </div>
       </main>
       <footer>
             <p>&copy; | 2021 | Sandesh Shinde</p>
