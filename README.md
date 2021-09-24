@@ -2,13 +2,13 @@
 
 ## Table of Contents
 
-1. [Overview](https://github.com/Sandesh9834/cash-register/new/main#overview)
-    - [Screenshots](https://github.com/Sandesh9834/cash-register/new/main#screenshots)
-    - [Links](https://github.com/Sandesh9834/cash-register/new/main#links)
+1. [Overview](https://github.com/Sandesh9834/cash-register/blob/main/README.md#overview)
+    - [Screenshots](https://github.com/Sandesh9834/cash-register/blob/main/README.md#screenshots)
+    - [Links](https://github.com/Sandesh9834/cash-register/blob/main/README.md#links)
    
-2. [Built Using](https://github.com/Sandesh9834/cash-register/new/main#built-using)
+2. [Built Using](https://github.com/Sandesh9834/cash-register/blob/main/README.md#built-using)
 
-3. [Author](https://github.com/Sandesh9834/cash-register/new/main#author)
+3. [Author](https://github.com/Sandesh9834/cash-register/blob/main/README.md#author)
 
 ### Overview
 
